@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
+import Home from './Home'
 
 class App extends Component {
   render() {
@@ -12,9 +13,9 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            这是一个react项目的测试版本
           </a>
         </header>
+        <Home />
       </div>
     );
   }
